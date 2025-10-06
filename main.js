@@ -66,7 +66,7 @@ class TurnControl {
       // Generate random location
       const randomLng = Math.random() * 360 - 180; // -180 to 180
       const randomLat = Math.random() * 140 - 70;  // -70 to 70 (avoid extreme poles)
-      const randomZoom = Math.random() * 3 + 1.5;  // 1.5 to 4.5
+      const randomZoom = Math.random() * 2 + 1;  // 1 to 3
       
       // Fly to random location
       this._map.easeTo({
