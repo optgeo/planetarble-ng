@@ -14,7 +14,7 @@ class GlobeControl {
     this._button.title = 'Toggle Globe';
     
     // Use MapLibre's built-in globe icon classes
-    this._button.className = 'maplibregl-ctrl-globe-enabled';
+    this._button.className = 'maplibregl-ctrl-globe';
     const icon = document.createElement('span');
     icon.className = 'maplibregl-ctrl-icon';
     icon.setAttribute('aria-hidden', 'true');
