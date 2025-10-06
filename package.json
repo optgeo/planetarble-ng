@@ -1,0 +1,20 @@
+{
+  "name": "planetarble-ng",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Planetarble's Blue Marble Next Generation on MapLibre GL JS",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "vite": "^7.1.9"
+  },
+  "dependencies": {
+    "maplibre-gl": "^5.8.0"
+  }
+}
